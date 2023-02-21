@@ -249,7 +249,7 @@ body{
     }
     .email[type="email"], .password[type="password"], .username[type="text"], .button-submit {
       width: 85%;
-      margin-left: 30px;
+      margin-left: 25px;
     }
     .page-animasi {
       display: none;
@@ -276,7 +276,7 @@ body{
     }
     .label-email,
     .label-password{
-      margin-left: 23px;
+      margin-left: 20px;
     }
   }
 
