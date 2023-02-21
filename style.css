@@ -15,11 +15,10 @@ body{
 }
 
 .container{
-    display: flex;
+    display: none;
     justify-content: space-between;
     margin-top: 250px;
     height: 1000px;
-
     
 }
 
