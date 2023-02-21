@@ -19,6 +19,7 @@ body{
     justify-content: space-between;
     margin-top: 150px;
     height: 1000px;
+
     
 }
 
@@ -70,6 +71,7 @@ body{
     display: flex;
     align-items: center;
     color: #A3B1EE;
+    margin-top: 20px;
 }
 
 
@@ -222,39 +224,62 @@ body{
 
 
   } 
-
-
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1500px) {
     .container {
       flex-direction: column;
-      height: auto;
-      margin-left: 20px;
     }
-    .container .page-login{
-      height: 700px;
-      margin-left: 30px;
-      
-    }
-    .container .page-login,
     .container .page-logo {
+      width: 900px;
+      max-width: 700px;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .container {
+      height: auto;
+    }
+    .container .page-login {
+      height: auto;
+      margin-left: 30px;
+    }
+    .container .page-login, .container .page-logo {
       width: 90%;
+      max-width: 500px;
+      margin: 0 auto;
     }
-    .email[type="email"],
-    .password[type="password"],
-    .username[type="text"],
-    .button-submit{
-      width: 60%;
+    .email[type="email"], .password[type="password"], .username[type="text"], .button-submit {
+      width: 85%;
+      margin-left: 30px;
     }
-    .page-animasi{
+    .page-animasi {
       display: none;
-      width: 100%;
     }
-    .container .page-logo{
+    .container .page-logo {
       background-color: transparent;
     }
-
-
+    .logo-image {
+      position: relative;
+     right: 70px;
+    }
+    .account, .no-have {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+    }
+    .sign-in-h1,
+    .sign-in-h2,
+    .sign-up-h1{
+      position: relative;
+      right: 70px;
+    }
+    .label-email,
+    .label-password{
+      margin-left: 23px;
+    }
   }
+
 
   
   .svg1 {
